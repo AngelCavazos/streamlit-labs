@@ -4,7 +4,8 @@ import datetime
 titanic_link ='https://raw.githubusercontent.com/mwaskom/seaborn-data/master/titanic.csv'
 titanic_data = pd.read_csv(titanic_link)
 
-st.title("My First Streamlit App")
+st.title("My Titanic App")
+st.subheader('Creado por Angel Cavazos')
 #creamos barra lateral
 sidebar = st.sidebar
 sidebar.title("This is the sidebar.")
